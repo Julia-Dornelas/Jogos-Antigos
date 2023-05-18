@@ -1,49 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400&family=Press+Start+2P&display=swap");
+
 :root {
   --corFundo: #0089b4;
   --corPrincipal: #00abd8;
   --corSecundaria: #006891;
   --corTitulo: #002b50;
 }
+
 body {
   background-color: var(--corFundo);
 }
+
 p {
   font-family: "MuseoModerno", cursive;
   font-weight: 400;
+  border: 3px solid black;
 }
+
 ul {
   font-family: "MuseoModerno", cursive;
 }
-footer{
+
+footer {
   font-family: "MuseoModerno", cursive;
 }
+
 h2 {
   font-family: "Press Start 2P", cursive;
   background-color: var(--corPrincipal);
   width: 650px;
-  border-radius: 30px; 
+  border-radius: 30px;
   text-align: center;
   margin: auto;
-padding: 10px;
+  padding: 10px;
+}
 
-} 
 img {
   border: 4px solid black;
-  border-radius: 30px;
-  margin-left:600px ;
-  margin-right:600px ;
 }
+
 a {
   color: black;
 }
+
 /*classes*/
 .intro-pag {
   height: 200px;
 }
+
 .teste {
   font-family: "MuseoModerno", cursive;
 }
+
 .titulo-principal {
   font-family: "Press Start 2P", cursive;
   text-align: center;
@@ -54,14 +62,28 @@ a {
   padding: 60px;
   font-size: 50px;
 }
+
 .conteudo-padrao {
   font-family: "MuseoModerno", cursive;
   font-weight: 400;
+  border: 2px solid red;
+  padding: 25px;
+  width: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
+
 .creditos {
   border: 4px solid black;
 }
-#img2{
- height: 350px;
+
+.lado {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
 }
 
+#img2 {
+  height: 350px;
+}
