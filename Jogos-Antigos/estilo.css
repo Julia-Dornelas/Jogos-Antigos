@@ -2,9 +2,9 @@
 
 :root {
   --corFundo: #000000;
-  --corPrincipal: #00abd8;
+  --corPrincipal: rgba(64, 130, 127, 1);
   --corSecundaria: #82C5C1;
-  --corTitulo: #40827F;
+  --corTitulo: #61A39F;
 }
 pre{
   font-family: "MuseoModerno", cursive;
@@ -33,14 +33,13 @@ p {
 
 footer {
   font-family: "MuseoModerno", cursive;
-  background-color: #61A39F;
+  background-color: var(--corTitulo);
 }
 
 h2 {
   font-family: "Press Start 2P", cursive;
   background-color: var(--corSecundaria);
   width: 650px;
-
   text-align: center;
   margin: auto;
   padding: 10px;
@@ -57,7 +56,8 @@ a {
   color:#fff
 }
 
-/*classes*/
+/*CLASS'S*/
+
 .intro-pag {
   height: 200px;
 }
@@ -72,7 +72,7 @@ a {
   border: 2px solid rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-radius: 10px;
-  background-color: var(--corTitulo);
+  background-color: var(--corPrincipal);
   padding: 60px;
   font-size: 50px;
 }
@@ -96,19 +96,7 @@ a {
   border-radius: 17px;
 }
 
-#img2 {
-  height: 350px;
-    border-radius: 17px;
-    background: cyan;
-    box-shadow:  15px 15px 15px#61A39F,
-    -15px -15px 15px #61A39F;
-  }
-#img {
-  border-radius: 17px;
-  background: cyan;
-box-shadow:  15px 15px 15px#61A39F,
-  -15px -15px 15px #61A39F;
-}
+
 
 .border {
   border: 3px solid rgb(0, 0, 0);
@@ -116,9 +104,9 @@ box-shadow:  15px 15px 15px#61A39F,
   text-align: center;
   color: rgb(255, 255, 255);
   border-radius: 47px;
-  box-shadow:12px 12px 23px var(--corSecundaria),
-              -12px -12px 23px var(--corTitulo);
-  background-color: var(--corTitulo);
+  box-shadow:8px 8px 15px var(--corSecundaria),
+              -8px -8px 15px var(--corTitulo);
+  background-color: var(--corPrincipal);
   padding: 60px;
   font-size: 50px;
   border-radius: 10px;
@@ -137,33 +125,13 @@ box-shadow:  15px 15px 15px#61A39F,
     border-color: rgb(26, 106, 141);
   }
 }
-.redes {
-  font-size:15px;
-  text-decoration: none;
-  font-family: "MuseoModerno", cursive;
-  padding-top:5px;
-  padding-bottom: 5px;
-  width:340px;
-  height:20px;
-  border-width:1px;
-  color:#fff;
-  border-color:rgba(36, 80, 78, 1);
-  font-style:italic;
-  border-top-left-radius:18px;
-  border-bottom-right-radius:18px;
-  box-shadow: 3px 4px 0px 0px rgba(41, 97, 94, 1);
-  background:rgba(64, 130, 127, 1);
-}
-.redes:hover {
-  background: rgba(64, 130, 127, 1)
-}
 
 .buttonClass {
   text-decoration: none;
   font-family: "MuseoModerno", cursive;
   display: inline-block;
-  width:300px;
-  height:10px;
+  width:200px;
+  height:25px;
   border-width:1px;
   border-top-left-radius:10px;
   border-bottom-right-radius:10px;
@@ -172,24 +140,24 @@ box-shadow:  15px 15px 15px#61A39F,
   box-shadow: 3px 4px 0px 0px rgb(29, 169, 162);
   background:rgba(64, 130, 127, 1);
 }
-.inf {
-  font-size:15px;
-  font-family:Arial;
-  display: inline-block;
-  padding-top:5px;
-  padding-bottom: 5px;
-  width:240px;
-  height:20px;
-  border-width:1px;
-  color:#fff;
-  border-color:rgba(36, 80, 78, 1);
-  box-shadow: 0px 0px 8px 3px rgba(41, 97, 94, 1);
-  background:rgba(64, 130, 127, 1);
-}
 
-.inf:hover {
-  background: rgba(64, 130, 127, 1)
-}
-  
+
+/*ID's*/
+
+
+#img2 {
+  height: 350px;
+    border-radius: 17px;
+    background: cyan;
+    box-shadow:  15px 15px 15px#61A39F,
+    -15px -15px 15px #61A39F;
+  }
+
+#img {
+  border-radius: 17px;
+  background: cyan;
+box-shadow:  15px 15px 15px#61A39F,
+  -15px -15px 15px #61A39F;
+}  
 
          
